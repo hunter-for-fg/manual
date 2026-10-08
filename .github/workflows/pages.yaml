@@ -28,6 +28,9 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v10.2.0
 
+      - name: Create virtual environment
+        run: uv venv
+
       - name: Install Sphinx
         run: uv pip install sphinx
 
