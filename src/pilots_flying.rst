@@ -4,25 +4,17 @@
 Flying
 ======
 
-.. _conduct-label:
+--------
+Hunter?!
+--------
 
--------
-Conduct
--------
-
-Unless it is agreed as part of an event - or you have agreed explicitly with specific other pilots: **you shall not shoot at other virtual pilots**. The reason is that outside of events Hunter is to be used to train against Hunter targets (on the ground or in the air).
-
-Unless it is agreed as part of an event: **do not use a callsign starting with "OPFOR"**.
-
-For your own and others sake: **do not consciously cheat**. E.g. if you use the same :ref:`IFF <iff-label>` code as the targets, then they will think you are a friend/defender. However, other pilots will find out and the Hunter web-application in :ref:`Attacker Events <web-attacker-events-label>` shows, whether a pilot uses the same IFF as the targets.
-
-If you asked for a Hunter session, **tell when you are done**. Running Hunter costs compute/energy resources - not all of it is free.
+The goal and capabilities of Hunter are described in :ref:`About <about-label>`.
 
 
 -------
 OPFOR?!
 -------
-`OPFOR <https://en.wikipedia.org/wiki/Opposing_force>`_ is an opposing force. Almost all simulated targets are ``OPFOR``. In most situations you are an ``attacker`` and try to destroy OPFOR targets. When there is an event using Hunter, then sometimes a few participants act as ``defenders`` and try to protects ``OPFOR`` from the attackers.
+`OPFOR⬀ <https://en.wikipedia.org/wiki/Opposing_force>`_ is an opposing force. Almost all simulated targets are ``OPFOR``. In most situations you are an ``attacker`` and try to destroy OPFOR targets. When there is an event using Hunter, then sometimes a few participants act as ``defenders`` and try to protects ``OPFOR`` from the attackers.
 
 --------------------
 Callsigns of Targets
@@ -75,9 +67,9 @@ Aircraft Carrier
 ................
 For landing and taking off from a carrier, you need to follow the instructions closely - amongst others you have to set the additional command line property correctly - or you will not see the carrier. Use the following resources:
 
-* The general description of `how to use carriers <https://wiki.flightgear.org/Howto:Carrier>`_ in FlightGear . Includes amongst others the TACAN codes to use in finding the carrier.
-* You need to follow at least the installation pilot sections of the `Carrier over MP <https://wiki.flightgear.org/Carrier_over_MP>`_ wiki article.
-* The F-14 is currently the only carrier capable aircraft in OPRF with weapons. There is an extensive description of `how to land on a carrier <https://wiki.flightgear.org/Howto:Carrier_Landing>`_.
+* The general description of `how to use carriers⬀ <https://wiki.flightgear.org/Howto:Carrier>`_ in FlightGear . Includes amongst others the TACAN codes to use in finding the carrier.
+* You need to follow at least the installation pilot sections of the `Carrier over MP⬀ <https://wiki.flightgear.org/Carrier_over_MP>`_ wiki article.
+* The F-14 is currently the only carrier capable aircraft in OPRF with weapons. There is an extensive description of `how to land on a carrier⬀ <https://wiki.flightgear.org/Howto:Carrier_Landing>`_.
 
 The person launching the scenario will announce which carrier (e.g. the Vinson) is active and which callsign it has (needed to configure the property in FG). Most often it will be the Vinson with callsign ``MP_029X``.
 
@@ -94,7 +86,7 @@ Save yourself frustrations by:
 ......
 Tanker
 ......
-If there is a tanker for `air-to-air-refueling (AAR) <https://en.wikipedia.org/wiki/Aerial_refueling>`_, then you can use its callsign to look-up the `TACAN <https://en.wikipedia.org/wiki/Tactical_air_navigation_system>`_ code according to table in `Howto:Aerial refueling <https://wiki.flightgear.org/Howto:Aerial_refueling>`_. By default the tanker uses callsign ``TEXACO1`` and thus its TACAN code is ``050X``, but the callsign can be changed in a scenario.
+If there is a tanker for `air-to-air-refueling (AAR)⬀ <https://en.wikipedia.org/wiki/Aerial_refueling>`_, then you can use its callsign to look-up the `TACAN⬀ <https://en.wikipedia.org/wiki/Tactical_air_navigation_system>`_ code according to table in `Howto:Aerial refueling⬀ <https://wiki.flightgear.org/Howto:Aerial_refueling>`_. By default the tanker uses callsign ``TEXACO1`` and thus its TACAN code is ``050X``, but the callsign can be changed in a scenario.
 
 The tanker serves the attackers and is vulnerable to attacks from OPFOR (so whoever creates the scenario needs to take care of this).
 
@@ -105,7 +97,7 @@ NB: it is not a requirement that Hunter provides the tanker. A human pilot suppl
 .....
 AWACS
 .....
-If there is an `airborne early warning and control <https://en.wikipedia.org/wiki/Airborne_early_warning_and_control>`_ plane (aka. AWACS), then its name is by default ``SKYEYE``.
+If there is an `airborne early warning and control⬀ <https://en.wikipedia.org/wiki/Airborne_early_warning_and_control>`_ plane (aka. AWACS), then its name is by default ``SKYEYE``.
 
 The AWACS serves the attackers and is vulnerable to attacks from OPFOR. The AWACS transmits attacker and OPFOR positions and IFF info using :ref:`Datalink <datalink-label>` - only for flying units like planes, helicopters, drones.
 
@@ -115,7 +107,7 @@ The AWACS serves the attackers and is vulnerable to attacks from OPFOR. The AWAC
 ...
 IFF
 ...
-Tankers, AWACS and other planes supporting the attackers (you) use the IFF (`identification of friend or foe <https://en.wikipedia.org/wiki/Identification_friend_or_foe>`_) system, so you can interrogate them. Unless the scenario is run with a different set of parameters, then:
+Tankers, AWACS and other planes supporting the attackers (you) use the IFF (`identification of friend or foe⬀ <https://en.wikipedia.org/wiki/Identification_friend_or_foe>`_) system, so you can interrogate them. Unless the scenario is run with a different set of parameters, then:
 
 * The OPFOR (the targets plus maybe pilots helping as defenders) will use code ``1``
 * The attackers (you) will use code ``6``.
@@ -128,7 +120,7 @@ If you get the IFF code wrong, then either the simulated targets or other attack
 ........
 Datalink
 ........
-If the scenario is run with an AWACS (see above), then the AWACS distributes tactical information over a datalink. See `Link 16 Tactical Data Information Link (TADIL) <https://en.wikipedia.org/wiki/Link_16>`_ as an example - but the OPRF implementation is not trying to mimic any particular system.
+If the scenario is run with an AWACS (see above), then the AWACS distributes tactical information over a datalink. See `Link 16 Tactical Data Information Link⬀ (TADIL) <https://en.wikipedia.org/wiki/Link_16>`_ as an example - but the OPRF implementation is not trying to mimic any particular system.
 
 Unless the scenario is run with a different set of parameters, then:
 
@@ -161,12 +153,12 @@ When running Hunter there is a set of :ref:`Command Line Arguments for Running H
 
 Whoever runs Hunter will be able to provide information about how hostile the currently run scenario is - or have a look at the session info in the web-site whether something might be shooting at you at all:
 
-* Certain attack helicopters like the `Ka-50 <https://en.wikipedia.org/wiki/Kamov_Ka-50>`_ or the `Mil Mi-24 <https://en.wikipedia.org/wiki/Mil_Mi-24>`_ defend themselves using `infrared homing <https://en.wikipedia.org/wiki/Infrared_homing>`_ missiles. The simulation is a compromise between the `9K38 Igla <https://en.wikipedia.org/wiki/9K38_Igla>`_ (basis) and the `FIM-92 Stinger <https://en.wikipedia.org/wiki/FIM-92_Stinger>`_. Max speed is ca. mach 1.8 and max range is ca. 4600 metres (longer and faster if launched from moving target).
-* The same applies for the `MQ-9 Reaper <https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper>`_ drone.
-* Depending on the setting ships will either shoot anti-aircraft bullets (a loose interpretation of the `Kashtan-M <https://en.wikipedia.org/wiki/Kashtan_CIWS>`_ - only the guns part) or surface-to-air missiles flying up to mach 5+ and >> 60 km.
-* Often there will be simulated `Shilkas <https://en.wikipedia.org/wiki/ZSU-23-4_Shilka>`_ (see `also <https://archive.org/details/DTIC_ADA392785/page/n3/mode/2up>`_) -- they are less accurately modelled, but still deadly if you fail to respect them (you can get easy kills with `anti-radiation missiles <https://en.wikipedia.org/wiki/Anti-radiation_missile>`_ -- but what if you use conventional weapons?).
+* Certain attack helicopters like the `Ka-50⬀ <https://en.wikipedia.org/wiki/Kamov_Ka-50>`_ or the `Mil Mi-24⬀ <https://en.wikipedia.org/wiki/Mil_Mi-24>`_ defend themselves using `infrared homing⬀ <https://en.wikipedia.org/wiki/Infrared_homing>`_ missiles. The simulation is a compromise between the `9K38 Igla⬀ <https://en.wikipedia.org/wiki/9K38_Igla>`_ (basis) and the `FIM-92 Stinger⬀ <https://en.wikipedia.org/wiki/FIM-92_Stinger>`_. Max speed is ca. mach 1.8 and max range is ca. 4600 metres (longer and faster if launched from moving target).
+* The same applies for the `MQ-9 Reaper⬀ <https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper>`_ drone.
+* Depending on the setting ships will either shoot anti-aircraft bullets (a loose interpretation of the `Kashtan-M⬀ <https://en.wikipedia.org/wiki/Kashtan_CIWS>`_ - only the guns part) or surface-to-air missiles flying up to mach 5+ and >> 60 km.
+* Often there will be simulated `Shilkas⬀ <https://en.wikipedia.org/wiki/ZSU-23-4_Shilka>`_ (see `also <https://archive.org/details/DTIC_ADA392785/page/n3/mode/2up>`_) -- they are less accurately modelled, but still deadly if you fail to respect them (you can get easy kills with `anti-radiation missiles⬀ <https://en.wikipedia.org/wiki/Anti-radiation_missile>`_ -- but what if you use conventional weapons?).
 * If there are SAMs (e.g. S-300) run as ``FG instances``, then they will launch realistically modelled missiles at you over tens of nautical miles. Otherwise, if SAMs are set to be shooting, then BUK-M2 will shoot surface-to-air missiles with up to mach 3 and up to ca. 30 km distance, S-300 will do the same up to mach 5+ and >> 60 km and the SA-3 will also shoot. Other SAMs in the scenario will either be faking to be active with radars etc. (but will actually not shoot at you) or will be replaced by Shilkas depending on the setting.
-* With the Shilka-IR there is a Shilka-like fantasy vehicle, which launches IR-missiles in `MANPAD <https://en.wikipedia.org/wiki/Man-portable_air-defense_system>`_ style (using the Igla as per above; the Shilka model is used such that the nozzle fire gives a bit of a hint, where the man-pads come from).
+* With the Shilka-IR there is a Shilka-like fantasy vehicle, which launches IR-missiles in `MANPAD⬀ <https://en.wikipedia.org/wiki/Man-portable_air-defense_system>`_ style (using the Igla as per above; the Shilka model is used such that the nozzle fire gives a bit of a hint, where the man-pads come from).
 * If there are "automats" (fighter planes run as ``FG instances``): they shoot bullets or launch missiles in a realistic way until they run out of ammunition. They will actively engage you.
 
 If something is shooting missiles at you, then from that specific target there will always only be one active missile in the air. If a gun is firing at you, then often it will be fired in short bursts with some shorter (ship) or longer (Shilka) breaks inbetween.
@@ -199,7 +191,7 @@ The implementation of the radars in Hunter is currently rather primitive. Theref
 * Line-of-sight takes the curvature of the earth into account (useful over the ocean).
 * But line-of-sight is only checking the angle above the highest point on the line of sight - not the type of surface or vegetation (woods) or buildings etc.
 * The missiles will run out of energy based an actual use of energy and not only time/distance - i.e. an intelligently maneuvering pilot can defeat a missile.
-* The missiles from Hunter targets are all either `infrared homing <https://en.wikipedia.org/wiki/Infrared_homing>`_ (Fox 2) or `active radar homing <https://en.wikipedia.org/wiki/Active_radar_homing>`_ (Fox 3). I.e. you have to hide from the missile coming towards you, not the radar detecting you. Destroying the asset shooting at you prevents new missiles coming after you, but does not defeat the missiles already in the air.
+* The missiles from Hunter targets are all either `infrared homing⬀ <https://en.wikipedia.org/wiki/Infrared_homing>`_ (Fox 2) or `active radar homing⬀ <https://en.wikipedia.org/wiki/Active_radar_homing>`_ (Fox 3). I.e. you have to hide from the missile coming towards you, not the radar detecting you. Destroying the asset shooting at you prevents new missiles coming after you, but does not defeat the missiles already in the air.
 * The missiles will bite on your aircraft's counter-measure with a given probability - the more counter-measures the better.
 * Each target is shooting at attackers on their own. E.g. two frigates will not coordinate which one shoots at the attacker - both will shoot if they see the attacker.
 * Each target is only tracking and shooting at one attacker only.

@@ -23,7 +23,7 @@ Each scenario also defines a "typical airport". Note that you cannot be sure tha
 Information about scenarios
 ---------------------------
 
-Whoever runs Hunter should announce, which scenario is used. Alternatively, if Hunter is run with flag ``-x 1`` then the details about the current scenario is available in Hunter's web application by choosing the current scenario/session in the `list of available sessions <https://hunter-web-ui.azurewebsites.net/ongoing_session/sessions_list>`_. Click on the relevant link for the session and you will see session details, amongst others:
+Whoever runs Hunter should announce, which scenario is used. Alternatively, if Hunter is run with flag ``-x`` then the details about the current scenario is available in Hunter's web application by choosing the current scenario/session in the :ref:`list of available sessions <label-list-sessions>`. Click on the relevant link for the session and you will see session details, amongst others:
 
 * the MP-server to choose
 * whether targets might be shooting at you
@@ -39,7 +39,7 @@ Examples
 Northern Norway
 +++++++++++++++
 
-A scenario around `ENNA <https://en.wikipedia.org/wiki/Lakselv_Airport,_Banak>`_ in the very North of Norway with fjords and ships and all. Lots of bombing targets and enough terrain changes to make hunting a bit interesting if you fly fast and low.
+A scenario around `ENNA⬀ <https://en.wikipedia.org/wiki/Lakselv_Airport,_Banak>`_ in the very North of Norway with fjords and ships and all. Lots of bombing targets and enough terrain changes to make hunting a bit interesting if you fly fast and low.
 
 In the map below ships are sailing along the green lines, helicopters are flying along the red lines and static targets are place within the lila areas.
 
@@ -55,7 +55,7 @@ Swiss Shooting Ranges
 Axalp
 *****
 
-The `Swiss Air Force <https://en.wikipedia.org/wiki/Swiss_Air_Force>`_ has a real shooting range at ca. 2200 metres above mean sea level in the Alps near `Meiringen airbase (ICAO: LSMM) <https://www.vtg.admin.ch/en/organisation/kdo-op/air-force/flpl-mei.html>`_ on `Axalp <https://en.wikipedia.org/wiki/Axalp#Fliegerschiessen_Axalp>`_ (Ebenfluh). There are plenty of videos and pictures on the internet to give you an impression about the spectacular scenery. The `core area <https://www.openstreetmap.org/node/305235603#map=14/46.6985/8.0744>`_ is between the Axalphorn and the Schwarzhorn.
+The `Swiss Air Force⬀ <https://en.wikipedia.org/wiki/Swiss_Air_Force>`_ has a real shooting range at ca. 2200 metres above mean sea level in the Alps near `Meiringen airbase (ICAO: LSMM)⬀ <https://www.vtg.admin.ch/en/organisation/kdo-op/air-force/flpl-mei.html>`_ on `Axalp⬀ <https://en.wikipedia.org/wiki/Axalp#Fliegerschiessen_Axalp>`_ (Ebenfluh). There are plenty of videos and pictures on the internet to give you an impression about the spectacular scenery. The `core area⬀ <https://www.openstreetmap.org/node/305235603#map=14/46.6985/8.0744>`_ is between the Axalphorn and the Schwarzhorn.
 
 There are 3 red shooting targets (ca. 10 m * 5 m) for cannons, 2 of which can also be used with rockets (not the one at "Axalphorn" in north direction).
 
@@ -157,11 +157,11 @@ Eugen Kvaternik (aka. Croatia)
 .. image:: images/eugen_kvaternik_entrance.jpeg
 
 
-This is a Croatian military shooting range near Slunj. There is a Croatian `wikipedia entry <https://hr.wikipedia.org/wiki/Vojni_poligon_%22Eugen_Kvaternik%22>`_ describing it.
+This is a Croatian military shooting range near Slunj. There is a Croatian `Wikipedia entry⬀ <https://hr.wikipedia.org/wiki/Vojni_poligon_%22Eugen_Kvaternik%22>`_ describing it.
 
 The scenario in Hunter is not a correct representation of the range. Instead the targets have been placed such that they are easy to spot. In the northern side it is easiest to orient oneself with the help of the rivers.
 
-There is a convoy of `Humvees <https://en.wikipedia.org/wiki/Humvee>`_ in a clearing to the West of the town of Slunj. Like the 2 speedboats the trucks are immortal.
+There is a convoy of `Humvees⬀ <https://en.wikipedia.org/wiki/Humvee>`_ in a clearing to the West of the town of Slunj. Like the 2 speedboats the trucks are immortal.
 
 
 .. image:: images/croatia_convoy.png
@@ -176,20 +176,20 @@ On the opposite side of the shooting range seen from Slunj in direction South-We
 Kornati (Croatia)
 +++++++++++++++++
 
-Along the Croatian coast between the island of Krk in the North-West and `Šibenik <https://en.wikipedia.org/wiki/%C5%A0ibenik>`_ in the South-East helicopters and drones are flying low and wait to be hunted down. The scenario has its name from the archipelago of `Kornati <https://en.wikipedia.org/wiki/Kornati>`_.
+Along the Croatian coast between the island of Krk in the North-West and `Šibenik⬀ <https://en.wikipedia.org/wiki/%C5%A0ibenik>`_ in the South-East helicopters and drones are flying low and wait to be hunted down. The scenario has its name from the archipelago of `Kornati⬀ <https://en.wikipedia.org/wiki/Kornati>`_.
 
-In addition there are speedboats around the 4 islands ``Prvić``, ``Sveti Grgur``, ``Goli otok`` and ``Rab`` to the South-East of the island of ``Krk``, on which the `Rijeka airport (LDRI) <https://en.wikipedia.org/wiki/Rijeka_Airport>`_ is situated. Alternative airports are the `Aviano Air Base (LIPA) <https://en.wikipedia.org/wiki/Aviano_Air_Base>`_ or `Zadar (LDZD) <https://en.wikipedia.org/wiki/Zadar_Airport>`_.
+In addition there are speedboats around the 4 islands ``Prvić``, ``Sveti Grgur``, ``Goli otok`` and ``Rab`` to the South-East of the island of ``Krk``, on which the `Rijeka airport (LDRI)⬀ <https://en.wikipedia.org/wiki/Rijeka_Airport>`_ is situated. Alternative airports are the `Aviano Air Base (LIPA)⬀ <https://en.wikipedia.org/wiki/Aviano_Air_Base>`_ or `Zadar (LDZD)⬀ <https://en.wikipedia.org/wiki/Zadar_Airport>`_.
 
 
-If a carrier has been announced, then it is situated between the Italian and Croatian coast in the `Adriatic Sea <https://en.wikipedia.org/wiki/Adriatic_Sea>`_.
+If a carrier has been announced, then it is situated between the Italian and Croatian coast in the `Adriatic Sea⬀ <https://en.wikipedia.org/wiki/Adriatic_Sea>`_.
 
-If a tanker has been announced, then it is departing from ``LIPA``, follows the Italian coast and then flies a pattern ca. between `Rimini <https://en.wikipedia.org/wiki/Rimini>`_ and `Zadar <https://en.wikipedia.org/wiki/Zadar>`_.
+If a tanker has been announced, then it is departing from ``LIPA``, follows the Italian coast and then flies a pattern ca. between `Rimini⬀ <https://en.wikipedia.org/wiki/Rimini>`_ and `Zadar⬀ <https://en.wikipedia.org/wiki/Zadar>`_.
 
 
 Grafenwöhr
 ++++++++++
 
-The `Grafenwöhr shooting range <https://de.wikipedia.org/wiki/Truppen%C3%BCbungsplatz_Grafenw%C3%B6hr>`_ includes two small airstrips ``ETIC`` and ``ETOI`` with a runway length of ca. 1 km. If you need a longer runway, then ``ETSI`` (`Fliegerhost Ingolstadt/Manching <https://de.wikipedia.org/wiki/Fliegerhorst_Ingolstadt/Manching>`_) or ``ETSN`` (`Fliegerhorst Neuburg <https://de.wikipedia.org/wiki/Fliegerhorst_Neuburg>`_) might be more suitable.
+The `Grafenwöhr shooting range⬀ <https://de.wikipedia.org/wiki/Truppen%C3%BCbungsplatz_Grafenw%C3%B6hr>`_ includes two small airstrips ``ETIC`` and ``ETOI`` with a runway length of ca. 1 km. If you need a longer runway, then ``ETSI`` (`Fliegerhost Ingolstadt/Manching⬀ <https://de.wikipedia.org/wiki/Fliegerhorst_Ingolstadt/Manching>`_) or ``ETSN`` (`Fliegerhorst Neuburg⬀ <https://de.wikipedia.org/wiki/Fliegerhorst_Neuburg>`_) might be more suitable.
 
 There are lots of static targets as well as a few moving trucks. The positions and types of target are not a direct mapping from reality. This scenario is for ground attack in an not very demanding topography only.
 
@@ -197,8 +197,8 @@ There are lots of static targets as well as a few moving trucks. The positions a
 Vidsel
 ++++++
 
-A scenario at the `Vidsel test range <https://en.wikipedia.org/wiki/Vidsel_Test_Range>`_ next to ``ESPE``. Other notable nearby airports are Jokkmokk (``ESNJ``) and Luleå (``ESPA``).
+A scenario at the `Vidsel test range⬀ <https://en.wikipedia.org/wiki/Vidsel_Test_Range>`_ next to ``ESPE``. Other notable nearby airports are Jokkmokk (``ESNJ``) and Luleå (``ESPA``).
 
 Targets are located approximately 30nm bearing 330 from ``ESPE``. There are three groups of targets, at ``19.31E,66.40N`` (a few buildings, heavy SAM and AAA), ``19.21E,66.31N`` (target containers, hard shelters, some SAM and AAA), and ``19.47E,66.26N`` (industrial buildings), plus several small gun targets.
 
-There is `custom terrain <https://gitlab.com/colingeniet/ESPE-scenery>`_ available for this scenario.
+There is `custom terrain⬀ <https://gitlab.com/colingeniet/ESPE-scenery>`_ available for this scenario.

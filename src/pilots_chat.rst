@@ -63,7 +63,7 @@ If there is a tanker, then you can use the following commands:
 Pilot Commands (@) for GCI (Ground Controlled Interception)
 ...........................................................
 
-OPRF assets include a `Ground control interception (GCI) <https://en.wikipedia.org/wiki/Ground-controlled_interception>`_ station, which might be run in parallel with Hunter. Some OPRF planes like the `MiG-21bis <https://github.com/l0k1/MiG-21bis>`_, the `Mirage 2000-* <https://github.com/5H1N0B11/Aircraft>`_ and the `F-16 <https://github.com/NikolaiVChr/f16>`_ have menu items or key bindings to request information about flying enemies from a GCI-station:
+OPRF assets include a `Ground control interception (GCI)⬀ <https://en.wikipedia.org/wiki/Ground-controlled_interception>`_ station, which might be run in parallel with Hunter. Some OPRF planes like the `MiG-21bis⬀ <https://github.com/l0k1/MiG-21bis>`_, the `Mirage 2000⬀ <https://github.com/5H1N0B11/Aircraft>`_ and the `F-16⬀ <https://github.com/NikolaiVChr/f16>`_ have menu items or key bindings to request information about flying enemies from a GCI-station:
 
 * ``PICTURE`` - full tactical picture
 * ``BOGEY DOPE`` - BRAA (Bearing Range Altitude Aspect) of nearest target
@@ -71,7 +71,7 @@ OPRF assets include a `Ground control interception (GCI) <https://en.wikipedia.o
 
 In order not to rely on this mechanism (not all OPRF aircraft have it implemented) and to be able to also give guidance on ground-attack targets, Hunter uses chat commands. Also, Hunter scenarios can include an :ref:`AWACS <awacs-label>`, which renders GCI somewhat obsolete.
 
-Therefore, Hunter provides its own set of target assignment requests. You can think of it as a combination of intelligence/reconnaissance picked up by various means of sensors, photographs or field observations by `Forward Air Control (FAC) <https://en.wikipedia.org/wiki/Forward_air_control>`_. The following requests are available:
+Therefore, Hunter provides its own set of target assignment requests. You can think of it as a combination of intelligence/reconnaissance picked up by various means of sensors, photographs or field observations by `Forward Air Control (FAC)⬀ <https://en.wikipedia.org/wiki/Forward_air_control>`_. The following requests are available:
 
 * ``@ G_P``: BRAA (Bearing Range Altitude Aspect) plus intercept vector plus estimated time to the nearest available plane (fixed-wing aircraft, not drone). Aspect ``hot`` means target is flying towards pilot (within 30 degs left/right), ``flank`` means it is still somewhat pointing its nose at you (30 - 60 degs left/right), ``beam`` means it is flying ca. at 90 deg angle, ``drag`` means it is flying away in somewhat same direction as you are flying.
 * ``@ G_H``: BRAA to the nearest available helicopter.

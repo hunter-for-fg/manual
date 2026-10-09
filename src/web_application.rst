@@ -3,7 +3,7 @@
 Web-application
 ===============
 
-Hunter has a simple web-ui at `mango-meadow-0bc8d0703.5.azurestaticapps.net <https://mango-meadow-0bc8d0703.5.azurestaticapps.net/>`_ showing damage statistics, a map of airports, a map of targets as well as a list of targets. The data for different sessions is kept for some days.
+Hunter has a simple web-ui at `mango-meadow-0bc8d0703.5.azurestaticapps.net⬀ <https://mango-meadow-0bc8d0703.5.azurestaticapps.net/>`_ showing damage statistics, a map of airports, a map of targets as well as a list of targets. The data for different sessions is kept for some days.
 
 ------------
 Page Refresh
@@ -33,7 +33,13 @@ To save cost the web-site backend hibernates, when it is not used. Therefore, if
 True vs. Magnetic Heading
 -------------------------
 
-All course/heading numbers are in degrees and will always be true heading. Depending on the pilot's aircraft the `Heading Indicator <https://en.wikipedia.org/wiki/Heading_indicator>`_ can be set to show `True North <https://en.wikipedia.org/wiki/True_north>`_. You can get the local magnetic variation in FlightGear by using ``Equipment`` -> ``Instrument Settings``.
+All course/heading numbers are in degrees and will always be true heading. Depending on the pilot's aircraft the `Heading Indicator⬀ <https://en.wikipedia.org/wiki/Heading_indicator>`_ can be set to show `True North⬀ <https://en.wikipedia.org/wiki/True_north>`_. You can get the local magnetic variation in FlightGear by using ``Equipment`` -> ``Instrument Settings``.
+
+-------------
+Accessibility
+-------------
+
+The design of Hunter takes the bold assumption of accessibility not being an important concern given the typical demands on cognitive and physical abilities when using a flight simulator. If there are areas, which need improvements, then please educate the maintainer about the issues and suggested ways to solve them.
 
 
 ----------
@@ -59,6 +65,9 @@ The content is optimized for viewing on computer screens or tablets. There might
 ---------------------
 Session Related Pages
 ---------------------
+
+
+.. _label-list-sessions:
 
 ..........................
 List of Available Sessions

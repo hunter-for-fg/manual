@@ -12,4 +12,3 @@ Using as a Pilot
    pilots_chat
    pilots_scenarios
    pilots_tips
-   web_application

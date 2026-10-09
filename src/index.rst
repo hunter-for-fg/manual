@@ -7,7 +7,9 @@ Welcome to Hunter's documentation!
    :caption: Contents:
 
    about
+   terms_of_use
    end_user_flying
+   web_application
    operators
    scenario_creation
 
