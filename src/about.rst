@@ -5,7 +5,7 @@
 About Hunter
 ============
 
-``Hunter`` is a combat simulation backend server for the free flight simulator `FlightGear⬀ <https://flightgear.org/>`_. It places different types of static and moving targets into `FlightGear's Multiplayer⬀ <https://wiki.flightgear.org/Howto:Multiplayer>`_, such that virtual pilots can fly attacks against air and ground targets. The server supports the work in the FlightGear flight sim military community `Operation Red Flag (OPRF - on Discord)⬀ <https://discord.gg/ptVapkE>`_.
+``Hunter`` is a combat simulation backend server for the free flight simulator `FlightGear⬀ <https://flightgear.org/>`_. It places different types of static and moving targets into `FlightGear's Multiplayer⬀ <https://wiki.flightgear.org/Howto:Multiplayer>`_, such that virtual pilots can fly attacks against air and ground targets. The server supports the work done in the FlightGear flight sim military community `Operation Red Flag (OPRF - on Discord)⬀ <https://discord.gg/ptVapkE>`_.
 
 ``Hunter`` uses FlightGear's Multiplayer (MP) capability, because multiplayer allows several people to fly together (`Nasal⬀ <https://wiki.flightgear.org/Nasal_scripting_language>`_ is better suited for single player). And because historically OPRF-assets have been written for multiplayer.
 
@@ -29,8 +29,8 @@ Some capabilities of ``Hunter``:
 * Ditto but including a simple `Web UI⬀ <https://mango-meadow-0bc8d0703.5.azurestaticapps.net/>`_ showing damage statistics, a map of airports, a map of targets as well as a list of targets.
 
 
+The name ``Hunter`` refers to the beautiful British `Hawker Hunter⬀ <https://en.wikipedia.org/wiki/Hawker_Hunter>`_, which for many years provided the ground attack capability for the `Swiss Air Force <https://en.wikipedia.org/wiki/Swiss_Air_Force>`_. By coincidence: the callsign ``HUNTRESS`` is used by `The North American Aerospace Defense Command (NORAD)⬀ <https://www.norad.mil/>`_.
 
-The name ``Hunter`` refers to the beautiful British `Hawker Hunter⬀ <https://en.wikipedia.org/wiki/Hawker_Hunter>`_, which for many years provided the ground attack capability for the `Swiss Air Force <https://en.wikipedia.org/wiki/Swiss_Air_Force>`_.
 
 -------
 Credits
