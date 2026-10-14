@@ -1,7 +1,7 @@
 
-========================
-Operators Running Hunter
-========================
+===============================
+Operating the Hunter Controller
+===============================
 
 .. toctree::
    :maxdepth: 3

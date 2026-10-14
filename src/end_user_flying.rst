@@ -1,8 +1,8 @@
 .. _chapter-end-user-label:
 
-================
-Using as a Pilot
-================
+=======================
+Using Hunter as a Pilot
+=======================
 
 .. toctree::
    :maxdepth: 3

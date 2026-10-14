@@ -8,8 +8,8 @@ Welcome to Hunter's documentation!
 
    about
    terms_of_use
-   end_user_flying
    web_application
+   end_user_flying
    operators
    scenario_creation
 

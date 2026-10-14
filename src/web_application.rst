@@ -1,7 +1,7 @@
 
-===============
-Web-application
-===============
+================
+Using the Web UI
+================
 
 Hunter has a simple web-ui at `mango-meadow-0bc8d0703.5.azurestaticapps.net⬀ <https://mango-meadow-0bc8d0703.5.azurestaticapps.net/>`_ showing damage statistics, a map of airports, a map of targets as well as a list of targets. The data for different sessions is kept for some days.
 
@@ -46,11 +46,11 @@ The design of Hunter takes the bold assumption of accessibility not being an imp
 Navigation
 ----------
 
-Navigation between pages is at the top. When no session has been chosen, then only few menu items are shown.
+Navigation between pages is at the top. When no session has been chosen, then only few menu items are shown. The ``Help`` menu is a drop-down with direct links to specific chapters in the manual
 
 .. image:: images/web_navigation_no_session.png
 
-As soon as a session has been chosen, then additional menu items are shown.
+As soon as a session has been chosen, then an additional drop-down menu is shown.
 
 .. image:: images/web_navigation_with_session.png
 
